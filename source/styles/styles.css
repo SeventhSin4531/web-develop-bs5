@@ -1,3 +1,21 @@
 body{
     background-color: rgb(177, 127, 127);
 }
+.bg-body-tertiary{
+    background-color: rgb(14, 15, 15) !important;
+}
+.nav-link {
+    color: aquamarine;
+}
+.nav-link:hover{
+    color: rgb(55, 235, 175);
+}
+.navbar-nav .nav-link.active{
+    color: rgba(65, 172, 15, 0.938);
+}
+.navbar-brand img{
+    width: 40px;
+}
+.navbar-toggler{
+    background-color: aquamarine;
+}
