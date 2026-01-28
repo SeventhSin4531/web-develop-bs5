@@ -31,6 +31,7 @@ body {
 }
 .sidebar{
     color: aquamarine;
+    background: linear-gradient(270deg, #e100ff 0%, #1d0086 100%);
 }
 
 /* .text-center{
