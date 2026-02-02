@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ponomar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=TikTok+Sans&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
 
 /* Playwrite+England+Joined+Guides >< */
@@ -7,6 +7,7 @@
 /* Rubik+Wet+Paint \/*/
 /* TikTok+Sans \/*/
 /* Mochiy+Pop+One >< */
+/* Ponomar */
 /* 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' */
 /* 'https://fonts.googleapis.com/css?family=TikTok+Sans&display=swap' */
 
@@ -17,10 +18,10 @@
 } */
 
 body {
-    font-family: Ponomar, serif;
+    font-family: 'TikTok Sans', serif;
     background: linear-gradient(90deg, #e100ff 0%, #3700ff 100%);
     font-weight: 300;
-    /* font-style: italic; */
+    font-style: italic;
 }
 
 .bg-body-tertiary {
