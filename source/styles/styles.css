@@ -73,14 +73,20 @@ body {
     font-size: 1.75em;
     margin: auto auto;
 }
-.footer-text{
+
+.footer-text {
     color: aquamarine;
     margin: auto auto;
     font-size: 1.2em;
 }
 
-footer{
-     border-top: 2px solid #e2ae20;
+footer {
+    border-top: 2px solid #e2ae20;
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -92,8 +98,9 @@ footer{
         font-size: 1.4em;
     }
 }
+
 @media (max-width: 1178px) {
-    .slide-text{
+    .slide-text {
         font-size: 1.4em;
     }
 }
