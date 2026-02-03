@@ -73,6 +73,15 @@ body {
     font-size: 1.75em;
     margin: auto auto;
 }
+.footer-text{
+    color: aquamarine;
+    margin: auto auto;
+    font-size: 1.2em;
+}
+
+footer{
+     border-top: 2px solid #e2ae20;
+}
 
 @media (max-width: 767px) {
     .carousel-indicators {
