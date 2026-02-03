@@ -63,6 +63,11 @@ body {
     color: aquamarine;
     background: linear-gradient(270deg, #e100ff 0%, #1d0086 100%);
 }
+.slide-text{
+    color: aquamarine;
+    font-size: 1.75em;
+    margin: auto auto;
+}
 /* .col-lg-12.sidebar.my-4{
     font-size: 1.5em;
 } */
