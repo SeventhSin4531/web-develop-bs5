@@ -47,27 +47,56 @@ body {
 .navbar-toggler {
     background-color: aquamarine;
 }
-.card{
+
+.card {
     box-shadow: 10px 10px 16px 1px #44ebb9;
     background: linear-gradient(270deg, #e100ff 0%, #1d0086 100%);
     color: aquamarine;
 }
-.card a{
+
+.card a {
     text-decoration: none;
     color: aquamarine;
 }
-.btn.btn-primary{
+
+.btn.btn-primary {
     color: rgb(255, 255, 255);
 }
-.sidebar{
+
+.sidebar {
     color: aquamarine;
     background: linear-gradient(270deg, #e100ff 0%, #1d0086 100%);
 }
-.slide-text{
+
+.slide-text {
     color: aquamarine;
     font-size: 1.75em;
     margin: auto auto;
 }
+
+@media (max-width: 767px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .slide-text {
+        font-size: 1.4em;
+    }
+}
+@media (max-width: 1178px) {
+    .slide-text{
+        font-size: 1.4em;
+    }
+}
+
+/* @media (max-width: 768px){
+    .carousel-indicators{
+        display: none;
+    }
+    .slide-text{
+        font-size: 1.5em;
+    }
+} */
 /* .col-lg-12.sidebar.my-4{
     font-size: 1.5em;
 } */
