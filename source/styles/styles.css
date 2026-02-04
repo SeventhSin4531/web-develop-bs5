@@ -83,7 +83,8 @@ body {
 footer {
     border-top: 2px solid #e2ae20;
 }
-.media-links{
+
+.media-links {
     display: flex;
     justify-content: center;
     align-items: center;
