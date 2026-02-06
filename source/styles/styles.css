@@ -23,6 +23,12 @@ body {
     font-weight: 300;
     font-style: italic;
 }
+p{
+    color: aquamarine;
+}
+/* a{
+    text-decoration: none;
+} */
 
 .bg-body-tertiary {
     background-color: rgb(14, 15, 15) !important;
@@ -88,6 +94,24 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.call-anim{
+    animation: animation_of_call 0.5s ease 0s infinite normal forwards;
+}
+
+@keyframes animation_of_call {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
 
 @media (max-width: 767px) {
