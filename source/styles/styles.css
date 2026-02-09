@@ -59,6 +59,9 @@ p{
     background: linear-gradient(270deg, #e100ff 0%, #1d0086 100%);
     color: aquamarine;
 }
+.card:hover{
+    animation: animation_of_call 0.5s ease 0s infinite normal forwards;
+}
 
 .card a {
     text-decoration: none;
