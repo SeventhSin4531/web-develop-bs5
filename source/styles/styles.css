@@ -89,8 +89,18 @@ p{
     font-size: 1.2em;
 }
 
-footer {
+footer{
     border-top: 2px solid #e2ae20;
+}
+
+.btn-outline-primary{
+    color: rgb(226, 198, 36);
+    background-color: rgb(94, 20, 163);
+    border-color: rgb(152, 54, 245);
+}
+.btn-outline-primary:hover{
+    background-color: rgb(172, 83, 255);
+    border-color: rgb(131, 30, 226);
 }
 
 .media-links {
