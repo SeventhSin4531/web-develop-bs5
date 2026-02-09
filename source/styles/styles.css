@@ -97,6 +97,7 @@ footer{
     color: rgb(226, 198, 36);
     background-color: rgb(94, 20, 163);
     border-color: rgb(152, 54, 245);
+    font-style: italic;
 }
 .btn-outline-primary:hover{
     background-color: rgb(172, 83, 255);
